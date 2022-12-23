@@ -1,0 +1,175 @@
+.card{
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    text-transform: uppercase;
+    top: 720px;
+}
+.card h2{
+    color: teal;
+}
+.card p{
+    font-weight: 300;
+    line-height: 2;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 2.0rem;
+    color: black;
+    margin: 90px;
+    justify-content: space-between;
+}
+.dark{
+    transform: 0.4s ease;
+    display: flex;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.time{
+    text-align: center;
+    text-transform: uppercase;
+} 
+.time h2{
+    margin-bottom: 80px;
+}
+.whats{
+    text-align: center;
+    font-size: 45px;
+    text-transform: lowercase;
+    margin-top: 40px;
+}
+.mindset{
+    text-align: center;
+}
+.mindset h2{
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.mindset h6{
+    font-size: 28px;
+    text-transform: lowercase;
+}
+.mindset p{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2;
+    margin-top: 40px;
+}
+.social-icon{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.github {
+    margin-left: 50px;
+}
+.wrapper h6{
+    margin-top: 70px;
+    text-transform: capitalize;
+}
+.dolo{
+    margin-top: 50px;
+}
+.wrapper textarea {
+    border: 1px solid transparent;
+    padding: 15px;
+    width: 33%;
+    height: 33vh;
+    margin: 10px 0;
+    border: 2px solid #000;
+    font-size: 0.9rem;
+  }
+  .wrapper input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 10px 0;
+    padding: 10px 5px;
+    width: 27%;
+    text-transform: capitalize;
+    font-size: x-large;
+  }
+  .wrapper button {
+    padding: 15px 25px;
+    margin: 15px 0;
+    width: 250px;
+    color: inherit;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: none;
+    background-color: transparent;
+    border: 1px solid #fff;    
+    background-color: gray;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+  }
+  .wrapper button:hover,
+.wrapper button:focus {
+  color: #22db9b;
+  background-color: #000;
+}
+.him{
+    text-align: center;
+}
+footer .break p {
+    margin-top: 50px;
+    font-size: 1.0rem;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  @media (max-width: 480px) {
+    .aboutText{
+        font-size: x-large;
+    }
+    .card p {
+        font-size: medium;
+        text-align: center;
+    }
+    .time h2{
+        font-size: x-large;
+    }
+    .dark {
+        display: flex;
+        flex-direction: column;
+    }
+    .Planet {
+        display: flex;
+    }
+    .survive {
+        display: flex;
+        position: relative;
+        right: 33px;
+    }
+    .oxygen {
+        display: flex;
+    } 
+    .him {
+        display: flex;
+        left: 100px;
+    }
+    .wrapper input{
+        font-size: x-large;
+        border-bottom: 1px solid #000;
+        margin: 10px 0;
+        padding: 10px 5px;
+        width: 80%;
+        text-transform: capitalize;
+        font-size: x-large;
+    }
+    .dolo textarea{
+        border: 1px solid transparent;
+        width: 73%;
+        height: 33vh;
+        margin: 10px 0;
+        border: 2px solid #000;
+    }
+    .break p {
+        width: 100%;
+        position: absolute;
+        left: -100px;
+    }
+  }

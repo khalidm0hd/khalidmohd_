@@ -1,0 +1,31 @@
+.moon{
+    position: absolute;
+    text-transform: capitalize;
+    font-size:x-large;
+    top: 50%;
+    text-align: left;
+    text-shadow: 2px 2px 2px fff;
+}
+.moon h1{
+    color: teal;
+    padding: 8px 12px;
+    margin: 12px 19px;
+}
+h1 span{
+    color: #575555;
+}
+.nobody img{
+    width: 50%;
+    float: right;
+    position: relative;
+    bottom: 370px;
+}
+@media (max-width: 480px) {
+    .moon h1{
+        font-size: 1.5rem;
+    }
+    .nobody img{
+        width: 50%;
+        position: relative;
+    }
+}
