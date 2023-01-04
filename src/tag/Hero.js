@@ -69,7 +69,7 @@ function Hero() {
                 </form>
                 <footer>
         <div className="break">
-            <p>© 2022 | Developed and designed by khalid mohd</p>
+            <p>© September 2022 | Developed and designed by khalid mohd</p>
         </div>
     </footer>
               </div>
