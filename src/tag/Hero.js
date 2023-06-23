@@ -25,7 +25,7 @@ function Hero() {
   return (
     <div id="about" className='card'>
         <h2>About me</h2>
-        <p>hey there! I'm khalid mohammed. I'm  a self-taught Front-End developer. Solving problems and learning<br />new things is something I enjoy doing everyday! I'm ready (and excited) to join the tech industry where <br />I can continue to learn and grow, alongside other talented developers. When im not coding <br />you can catch me playing basketball. </p>
+        <p>hey there! I'm khalid mohammed. I'm  a self-taught Front-End developer. Solving problems and learning<br />new things is something I enjoy doing everyday! I'm ready (and excited) to join the tech industry where <br />I can continue to learn and grow, alongside other talented developers. When im not coding <br />you can catch me playing basketball. <span color={"red"}>p.s</span> this my first project with react </p>
         <div id="skills" className='aboutText'>
           <h2>skills</h2>
           <div className='dark'>
